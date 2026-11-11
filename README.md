@@ -22,6 +22,9 @@ Java (developed in BlueJ)
 ```bash
 cd src
 javac *.java
+cp ticketdata.txt "input file csc248.txt"   # data file name expected by TicketLLApp
 java TicketLLApp        # linked list version
 java TicketMainQueue    # queue version
 ```
+
+> Sample records in `ticketdata.txt` are fictional.
