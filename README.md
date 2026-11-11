@@ -1,2 +1,27 @@
-💻 Our Ticketing Management System is an efficient Java-based application designed for comprehensive data management. Users can view all existing data, add new entries, delete outdated or incorrect records, and perform searches to quickly locate specific information. This robust system ensures streamlined operations and effective management of ticketing data.
+# Ticket Management System
 
+A Java console application for managing ticket records using hand-written data structures.
+
+Built for a **Data Structures** course at UiTM.
+
+## Features
+
+- Load ticket records from `ticketdata.txt`
+- View, add, delete and search records
+- Two implementations of the same system:
+  - **Linked list** (`TicketLL`, `TicketLLApp`)
+  - **Queue** (`Queue`, `TicketMainQueue`, `mainAppQueue`)
+- Custom `LinkedList` and `Node` classes, no Java collections
+
+## Tech stack
+
+Java (developed in BlueJ)
+
+## Running
+
+```bash
+cd src
+javac *.java
+java TicketLLApp        # linked list version
+java TicketMainQueue    # queue version
+```
